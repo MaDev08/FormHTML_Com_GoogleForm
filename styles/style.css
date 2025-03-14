@@ -1,0 +1,139 @@
+/* Estilos Globais */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Rowdies:wght@300;400;700&display=swap');
+
+body {
+    font-family: "Rethink Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background: url('https://th.bing.com/th/id/OIP.iOp8KZ9Abu8D0S8Gy-DZsAHaLH?rs=1&pid=ImgDetMain');
+    /* Cor clara que remete a um ambiente natural */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container centralizado */
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border: 2px solid #4b7a2a;
+    /* Cor de verde terroso */
+}
+
+/* Títulos */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4b7a2a;
+    /* Verde da natureza */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    /* Sombra para destacar */
+}
+
+p.lead {
+    font-size: 1.2rem;
+    color: #6b8e23;
+    /* Verde mais suave */
+}
+
+/* Formulário */
+form {
+    margin-top: 20px;
+}
+
+/* Labels */
+label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #4b7a2a;
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+select,
+button {
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #a1c49c;
+    /* Verde claro, que remete a folhas */
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+select:focus,
+button:focus {
+    outline: none;
+    border-color: #ff8c00;
+    /* Laranja quente, cor vibrante como um dinossauro */
+}
+
+/* Estilo para o botão */
+button {
+    background-color: #ff8c00;
+    /* Laranja vibrante, simbolizando força */
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e07b00;
+    /* Tom mais profundo de laranja */
+}
+
+/* Rating (Estrelas e Dinossauros) */
+.rating {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.rating span {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.rating input[type="radio"] {
+    display: none;
+}
+
+.rating input[type="radio"]:checked~span {
+    color: #ffcc00;
+    /* Amarelo de destaque, cor da "energia" dos dinossauros */
+}
+
+/* Estilo para campos de radio */
+.rating input[type="radio"]:checked~span {
+    color: #ffcc00;
+}
+
+/* Espaçamento adicional */
+.mb-4 {
+    margin-bottom: 20px;
+}
+
+/* Ajuste para dispositivos móveis */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p.lead {
+        font-size: 1rem;
+    }
+}
