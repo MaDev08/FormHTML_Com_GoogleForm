@@ -7,3 +7,6 @@ idade crianca: entry.1353253480
 contato emergencia: entry.1958102596
 contato emergencia 2 : entry.723988003
 convenio: entry.1832203007
+O quanto a criança gosta de dinossauros = entry.2112728297_sentinel
+O quanto a crja ça sabe sobre os dinossauros do Brasil = entry.1270435558_sentinel
+O quanto a criança se interessa por atividades ao ar livre = entry.392040473_sentinel
