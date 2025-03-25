@@ -23,7 +23,7 @@
                 </div>
                 <div class="divide-y divide-gray-200">
                     <form
-                        action="https://docs.google.com/forms/d/e/1FAIpQLSerdeZYTadoMxlgHrZw-Occ9zWVlnvTBymQSnq4fuVCQ2UU0A/formResponse">
+                        action="https://script.google.com/macros/s/AKfycbw3c_c7qsmALFje8oAHaPd4kmnOzYtNaK117tPxSbu_8EqPnz1eXODbXH4wsrUwQ-cq/exec"method="post">
                         <div class="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
                             <div class="relative">
                                 <input autocomplete="off" id="nome_responsavel" name="entry.93004733" type="text"
@@ -75,7 +75,8 @@
                                     convênio? Se sim, qual?</label>
                             </div>
                             <div class="relative">
-                                <input autocomplete="off" id="gostaDino" name="entry.2112728297_sentinel" type="number" min="0" max="10"
+                                <input autocomplete="off" id="gostaDino" name="entry.2112728297_sentinel" type="number"
+                                    min="0" max="10"
                                     class="peer placeholder-transparent h-10 w-full border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:borer-green-600"
                                     placeholder="O quanto a criança gosta de dinossauros?" />
                                 <label for="gostaDino"
@@ -83,8 +84,8 @@
                                     quanto a criança gosta de dinossauros?</label>
                             </div>
                             <div class="relative">
-                                <input autocomplete="off" id="entry.1270435558_sentinel" name="dinoBrasil" type="number" min="0"
-                                    max="10"
+                                <input autocomplete="off" id="entry.1270435558_sentinel" name="dinoBrasil" type="number"
+                                    min="0" max="10"
                                     class="peer placeholder-transparent h-10 w-full border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:borer-green-600"
                                     placeholder="O quanto a criança sabe sobre os dinossauros do Brasil?" />
                                 <label for="dinoBrasil"
@@ -93,8 +94,8 @@
                             </div>
 
                             <div class="relative">
-                                <input autocomplete="off" id="atividadesArLivre" name="entry.392040473_sentinel" type="number"
-                                    min="0" max="10"
+                                <input autocomplete="off" id="atividadesArLivre" name="entry.392040473_sentinel"
+                                    type="number" min="0" max="10"
                                     class="peer placeholder-transparent h-10 w-full border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:border-green-600"
                                     placeholder="O quanto a criança gosta de atividades ao ar livre? " />
                                 <label for="atividadesArLivre"
@@ -102,13 +103,14 @@
                                     quanto a criança gosta de atividades ao ar livre?</label>
                             </div>
 
+                            <div class="relative">
+                                <div class="relative">
+                                    <button type="submit" class="bg-green-500 text-white rounded-md px-2 py-1">Enviar
+                                        Inscrição</button>
+                                </div>
+                            </div>
                     </form>
 
-                    <div class="relative">
-                        <div class="relative">
-                            <button type = "submit" class="bg-green-500 text-white rounded-md px-2 py-1">Enviar Inscrição</button>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -126,7 +128,6 @@
             }
         });
     };
-
 
     const idadeCriancaInput = document.getElementById('idade_crianca');
     const dinoBrasilInput = document.getElementById('dinoBrasil');
